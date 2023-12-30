@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png"
+      alt="Starbucks Logo" id="logo">
+    <h1>Starbucks Coffee Shop</h1>
+  </header>
+  <div id="menu">
+    <h2>Menu</h2>
+    <div style="display: flex; justify-content: space-evenly;">
+      <div class="item" data-time="10">
+        <h3>Espresso</h3>
+        <p>Preparation time: <span class="prep-time">10</span> seconds</p>
+        <button class="order-button" value="espresso">Order</button>
+      </div>
+      <div class="item" data-time="15">
+        <h3>Latte</h3>
+        <p>Preparation time: <span class="prep-time">15</span> seconds</p>
+        <button class="order-button" value="latte">Order</button>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-evenly;">
+      <div class="item" data-time="10">
+        <h3>Cake</h3>
+        <p>Preparation time: <span class="prep-time">20</span> seconds</p>
+        <button class="order-button" value="cake">Order</button>
+      </div>
+      <div class="item" data-time="15">
+        <h3>Milk Tea</h3>
+        <p>Preparation time: <span class="prep-time">20</span> seconds</p>
+        <button class="order-button" value="milk-tea">Order</button>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-evenly;">
+      <div class="item" data-time="10">
+        <h3>Tea</h3>
+        <p>Preparation time: <span class="prep-time">10</span> seconds</p>
+        <button class="order-button" value="tea">Order</button>
+      </div>
+      <div class="item" data-time="15">
+        <h3>Water</h3>
+        <p>Preparation time: <span class="prep-time">10</span> seconds</p>
+        <button class="order-button" value="water">Order</button>
+      </div>
+    </div>
+
+    <!-- Add more items as needed -->
+  </div>
+
+  <div id="orders">
+    <h2>Orders</h2>
+    <!-- Orders will be dynamically added here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
